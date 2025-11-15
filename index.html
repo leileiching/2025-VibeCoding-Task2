@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aurora Chen · Frontend Developer 個人品牌網站</title>
-  <meta name="description" content="這是一個前端工程師的個人品牌網站，用來介紹個人背景與專長、展示網頁開發作品集，並提供聯絡方式，方便合作洽談與履歷投遞。">
+  <title>Lexie Lei · Visual Designer 個人品牌網站</title>
+  <meta name="description" content="這是一個視覺設計師斜槓前端的個人品牌網站，用來介紹個人背景與專長、展示網頁開發作品集，並提供聯絡方式，方便合作洽談與履歷展示。">
   <style>
     /* CSS:BASE-START */
     *,
@@ -417,13 +417,11 @@
 
     .hero-image {
       border-radius: 0.9rem;
+      width: 100%;
+      height: 400px;
     }
 
-    .hero-media-caption {
-      margin-top: 0.7rem;
-      font-size: 0.75rem;
-      color: #9ca3af;
-    }
+
     /* CSS:HERO-END */
 
     /* CSS:ABOUT-START */
@@ -719,15 +717,15 @@
       <div class="container">
         <div class="nav">
           <div class="nav-brand">
-            Aurora Chen · <span class="nav-accent">Frontend Dev</span>
+            Lexie Lei · <span class="nav-accent">Visual Designer</span>
           </div>
           <nav aria-label="主選單">
             <div class="nav-links">
-              <a class="nav-link" href="#hero">首頁</a>
-              <a class="nav-link" href="#about">關於我</a>
-              <a class="nav-link" href="#skills">技能</a>
-              <a class="nav-link" href="#projects">作品集</a>
-              <a class="nav-link nav-link--primary" href="#contact">聯絡我</a>
+              <a class="nav-link" href="#hero">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link nav-link--primary" href="#contact">Contact</a>
             </div>
           </nav>
         </div>
@@ -743,18 +741,20 @@
               <div class="hero-tag-row">
                 <span class="tag">
                   <span class="tag-dot" aria-hidden="true"></span>
-                  <span>Frontend Developer · 個人網站</span>
-                </span>
-                <span class="hero-kicker">這裡是 Hero 區的占位版面。</span>
+                  <span>Lexie Lei · Personal Website</span>
+              
               </div>
 
               <h1 id="hero-heading" class="hero-title">
-                未來的主視覺標題
-                <span class="hero-title-highlight">將在這裡呈現</span>
+                I 
+                <span class="hero-title-highlight">design it</span>
+                and 
+                <span class="hero-title-highlight">build it.</span>
               </h1>
 
               <p class="hero-subtitle">
-                這裡目前是 Hero 區的占位內容，未來會改成一句話的自我介紹、核心職稱（例如 Frontend Developer）以及引導訪客瀏覽作品集或下載履歷的正式文案。
+                在需求與美感之間保持優雅的平衡。
+                <br>讓設計有靈魂，讓介面被看見、被使用、被理解。</br>
               </p>
 
               <p class="hero-placeholder-note">
@@ -792,14 +792,12 @@
               <div class="hero-media-frame">
                 <img
                   class="hero-image"
-                  src="https://source.unsplash.com/800x600/?developer,laptop"
-                  alt="在桌前撰寫程式碼的前端開發者示意照片"
+                  src="img/hero-line.jpg"
+                  alt="hero區域圖片"
                   loading="lazy"
                 >
               </div>
-              <p class="hero-media-caption">
-                圖片占位說明：目前先使用 Unsplash 的示意照。之後若 Section SDD 產出的設計需要更精準的形象照或插畫，請直接在產出的 section 程式碼中替換整個圖片區塊。
-              </p>
+
             </div>
           </div>
         </div>
